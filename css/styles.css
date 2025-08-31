@@ -7,10 +7,10 @@ body {
   margin: 0;
 }
 
-/* Logo */
-header
-{
+/* Header */
+.header {
   background-color: #E7E9FC;
+  padding: 20px;
 }
 
 .logo-header, .footer-logo {
@@ -21,25 +21,29 @@ header
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  text-decoration: none;
 }
 
-.logo-header span, .footer-logo span {
-  color: #f4f4fd;
+.logo-span {
+  color: #2e2f42;
 }
 
-/* Navigation */
 .main-nav {
-  display: flex;
   list-style: none;
-  gap: 30px;
+  margin: 0;
   padding: 0;
+}
+
+.main-nav li {
+  display: inline-block;
+  margin-right: 20px;
 }
 
 .nav-link {
   font-weight: 500;
-  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-decoration: none;
 }
 
 .nav-link:hover,
@@ -47,24 +51,7 @@ header
   color: #404bbf;
 }
 
-/* Header contacts */
-.header-contact {
-  font-style: normal;
-}
-
-.contact-link {
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
-
-.contact-link:hover,
-.contact-link:focus {
-  color: #404bbf;
-}
-
-/* Hero section */
+/* Hero */
 .hero-section {
   background-color: #2e2f42;
   text-align: center;
@@ -73,22 +60,17 @@ header
 
 .hero-title {
   font-size: 56px;
-  line-height: 1.07;
   letter-spacing: 0.02em;
   color: #ffffff;
-  text-align: center;
 }
 
 .hero-button {
   background-color: #4D5AE5;
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
   border: none;
-  border-radius: 5px;
   cursor: pointer;
   padding: 12px 25px;
   margin-top: 20px;
@@ -99,7 +81,7 @@ header
   background-color: #404BBF;
 }
 
-/* Services section */
+/* Services */
 .services-section {
   background-color: #F4F4FD;
   padding: 60px 20px;
@@ -108,18 +90,16 @@ header
 .service-title {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
 .service-text {
-  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
 
-/* Team section */
+/* Team */
 .team-section {
   background-color: #F4F4FD;
   padding: 60px 20px;
@@ -128,8 +108,6 @@ header
 
 .team-title {
   font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
@@ -138,57 +116,26 @@ header
 .team-name {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
 .team-role {
-  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
+
+/* Portfolio */
 .portfolio-section {
   padding: 60px 20px;
-  text-align: center;
 }
 
-.portfolio-title {
+.section-title {
   font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
   color: #2e2f42;
+  text-align: center;
   margin-bottom: 40px;
 }
-
-.portfolio-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.portfolio-item {
-  background-color: #FFFFFF;
-  margin-bottom: 30px;
-}
-
-.portfolio-item-title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-  margin: 10px 0 5px;
-}
-
-.portfolio-item-text {
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-  margin: 0;
-}
-
 
 /* Footer */
 .footer-section {
@@ -198,7 +145,9 @@ header
 }
 
 .footer-text {
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   color: #F4F4FD;
+}
+
+.footer-span {
+  color: #f4f4fd;
 }

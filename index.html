@@ -1,124 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Effective Solutions for Your Business</title>
-<link rel="stylesheet" href="css/styles.css">
-<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WebStudio</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<header>
-  <nav>
-    <a href="./index.html" class="logo-header">Web<span>Studio</span></a>
-    <ul class="main-nav">
-      <li><a href="./index.html" class="nav-link">Studio</a></li>
-      <li><a href="#" class="nav-link">Portfolio</a></li>
-      <li><a href="#" class="nav-link">Contacts</a></li>
-    </ul>
-  </nav>
-  <address class="header-contact">
-    <ul>
-      <li><a href="mailto:info@devstudio.com" class="contact-link">info@devstudio.com</a></li>
-      <li><a href="tel:+110001111111" class="contact-link">+11 (000) 111-11-11</a></li>
-    </ul>
-  </address>
-</header>
+  <!-- Header -->
+  <header class="header">
+    <a href="./index.html" class="logo-header">Web<span class="logo-span">studio</span></a>
+    <nav>
+      <ul class="main-nav">
+        <li><a class="nav-link" href="./index.html">Studio</a></li>
+        <li><a class="nav-link" href="">Portfolio</a></li>
+        <li><a class="nav-link" href="">Contacts</a></li>
+      </ul>
+    </nav>
+  </header>
 
-<main>
+  <!-- Hero -->
   <section class="hero-section">
-    <h1 class="hero-title">effective-solutions-for-your-business</h1>
-    <button type="button" class="hero-button">Order Service</button>
+    <h1 class="hero-title">Effective Solutions for Your Business</h1>
+    <button class="hero-button">Order Service</button>
   </section>
 
+  <!-- Services -->
   <section class="services-section">
-    <h2 class="visually-hidden">Our Services</h2>
-    <ul class="service-list">
-      <li class="service-item">
+    <h2 class="section-title">Our Services</h2>
+    <ul>
+      <li>
         <h3 class="service-title">Strategy</h3>
-        <p class="service-text">Our goal is to identify the business problem to walk away with the perfect and creative solution.</p>
+        <p class="service-text">Our strategic approach guarantees success in every project.</p>
       </li>
-      <li class="service-item">
-        <h3 class="service-title">Punctuality</h3>
-        <p class="service-text">Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
+      <li>
+        <h3 class="service-title">Design</h3>
+        <p class="service-text">Creative solutions for your business image.</p>
       </li>
-      <li class="service-item">
-        <h3 class="service-title">Diligence</h3>
-        <p class="service-text">Research and confirm brands with the strongest digital growth opportunities and minimize risk.</p>
-      </li>
-      <li class="service-item">
-        <h3 class="service-title">Technologies</h3>
-        <p class="service-text">Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
+      <li>
+        <h3 class="service-title">Development</h3>
+        <p class="service-text">Modern technologies for scalable growth.</p>
       </li>
     </ul>
   </section>
 
+  <!-- Team -->
   <section class="team-section">
     <h2 class="team-title">Our Team</h2>
-    <ul class="team-list">
-      <li class="team-item">
-        <img src="./images/photo1.jpg" alt="Bearded man in a checkered shirt" width="264">
+    <ul>
+      <li style="background-color:#FFFFFF;">
+        <img src="./images/member1.jpg" alt="Product Designer" width="360">
         <h3 class="team-name">Mark Guerrero</h3>
         <p class="team-role">Product Designer</p>
       </li>
-      <li class="team-item">
-        <img src="./images/photo2.jpg" alt="Smiling man in a light blue shirt" width="264">
+      <li style="background-color:#FFFFFF;">
+        <img src="./images/member2.jpg" alt="Frontend Developer" width="360">
         <h3 class="team-name">Tom Ford</h3>
         <p class="team-role">Frontend Developer</p>
       </li>
-      <li class="team-item">
-        <img src="./images/photo3.jpg" alt="Young beautiful woman" width="264">
+      <li style="background-color:#FFFFFF;">
+        <img src="./images/member3.jpg" alt="Marketing" width="360">
         <h3 class="team-name">Camila Garcia</h3>
         <p class="team-role">Marketing</p>
       </li>
-      <li class="team-item">
-        <img src="./images/photo4.jpg" alt="Smiling bearded man in a grey t-shirt" width="264">
+      <li style="background-color:#FFFFFF;">
+        <img src="./images/member4.jpg" alt="UI Designer" width="360">
         <h3 class="team-name">Daniel Wilson</h3>
         <p class="team-role">UI Designer</p>
       </li>
     </ul>
   </section>
 
-<section class="portfolio-section">
-  <h2 class="portfolio-title">Our Portfolio</h2>
-  <ul class="portfolio-list">
-    <li class="portfolio-item">
-      <img src="./images/img.jpg" alt="Modern application in a purple and white color scheme.">
-      <h3 class="portfolio-item-title">Banking App</h3>
-      <p class="portfolio-item-text">App</p>
-    </li>
-    <li class="portfolio-item">
-      <img src="./images/img1.jpg" alt="Mobile phone scanning contactless payment terminal.">
-      <h3 class="portfolio-item-title">Cashless Payment</h3>
-      <p class="portfolio-item-text">Marketing</p>
-    </li>
-    <li class="portfolio-item">
-      <img src="./images/img2.jpg" alt="Meditation app displayed on laptop and smartphone.">
-      <h3 class="portfolio-item-title">Meditation App</h3>
-      <p class="portfolio-item-text">App</p>
-    </li>
-    <li class="portfolio-item">
-      <img src="./images/img3.jpg" alt="Professional taxi service driver in a modern, comfortable vehicle.">
-      <h3 class="portfolio-item-title">Taxi Service</h3>
-      <p class="portfolio-item-text">Marketing</p>
-    </li>
-    <li class="portfolio-item">
-      <img src="./images/img4.jpg" alt="Smartphone displaying a selection of moon-themed wallpapers.">
-      <h3 class="portfolio-item-title">Screen Illustrations</h3>
-      <p class="portfolio-item-text">Design</p>
-    </li>
-    <li class="portfolio-item">
-      <img src="./images/img5.jpg" alt="Female student enjoying online courses on her smartphone.">
-      <h3 class="portfolio-item-title">Online Courses</h3>
-      <p class="portfolio-item-text">Marketing</p>
-    </li>
-  </ul>
-</section>
-</main>
+  <!-- Portfolio -->
+  <section class="portfolio-section">
+    <h2 class="section-title">Our Portfolio</h2>
+    <ul>
+      <li>
+        <img src="./images/bankingapp1.jpg" alt="Modern application in a purple and white color scheme." width="360">
+        <h3>Banking App</h3>
+        <p>App</p>
+      </li>
+      <li>
+        <img src="./images/payment2.jpg" alt="Mobile phone scanning contactless payment terminal." width="360">
+        <h3>Cashless Payment</h3>
+        <p>Marketing</p>
+      </li>
+      <li>
+        <img src="./images/meditation3.jpg" alt="Meditation app displayed on laptop and smartphone" width="360">
+        <h3>Meditation App</h3>
+        <p>App</p>
+      </li>
+      <li>
+        <img src="./images/taxi4.jpg" alt="Professional taxi service driver in a modern, comfortable vehicle." width="360">
+        <h3>Taxi Service</h3>
+        <p>Marketing</p>
+      </li>
+      <li>
+        <img src="./images/wallpapers5.jpg" alt="Smartphone displaying a selection of moon-themed wallpapers." width="360">
+        <h3>Screen Illustrations</h3>
+        <p>Design</p>
+      </li>
+      <li>
+        <img src="./images/onlinecourses6.jpg" alt="Female student enjoying online courses on her smartphone." width="360">
+        <h3>Online Courses</h3>
+        <p>Marketing</p>
+      </li>
+    </ul>
+  </section>
 
-<footer class="footer-section">
-  <a href="./index.html" class="footer-logo">Web<span>Studio</span></a>
-  <p class="footer-text">Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
-</footer>
+  <!-- Footer -->
+  <footer class="footer-section">
+    <a href="./index.html" class="footer-logo">Web<span class="footer-span">studio</span></a>
+    <p class="footer-text">
+      Increase the flow of customers and sales for your business with digital marketing & growth solutions.
+    </p>
+  </footer>
 </body>
 </html>
