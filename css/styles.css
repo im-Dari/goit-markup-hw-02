@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
@@ -24,7 +26,7 @@ header
 }
 
 .logo-header span, .footer-logo span {
-  color: #f4f4fd;
+  color:  #2e2f42;
 }
 
 /* Navigation */
@@ -101,7 +103,7 @@ header
 
 /* Services section */
 .services-section {
-  background-color: #F4F4FD;
+  background-color: #FFFFFF;
   padding: 60px 20px;
 }
 
