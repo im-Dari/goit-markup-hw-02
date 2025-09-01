@@ -189,9 +189,12 @@ header {
   text-align: center;
 }
 
-span.footer-text {
-  color: #F4F4FD;
+span.footer-span {
+  color: #f4f4fd;
+}
+
+.footer-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
-  
+  color: #f4f4fd;
 }
