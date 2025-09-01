@@ -126,7 +126,11 @@ header {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: #2e2f42;
+  color: #2e2f42
+}
+.team-item {
+  background-color: #FFFFFF; 
+  margin-bottom: 20px;    
 }
 
 .team-name {
